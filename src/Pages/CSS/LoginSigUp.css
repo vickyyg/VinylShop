@@ -1,0 +1,38 @@
+
+  .loginsigup {
+    text-align: center;
+    padding-left: 35%;
+    padding-bottom: 130px;
+    padding-top: 40px;
+  }
+  
+  .loginsigup-container {
+    background-color: rgb(216, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* O ajusta el ancho máximo según tus necesidades */
+    width: 100%;
+    
+  }
+  
+  .loginsigup-fields {
+    margin-bottom: 20px;
+  }
+  
+  .loginsigup-fields input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .loginsigup-agree {
+    margin-top: 20px;
+  }
+  
+  .loginsigup-agree p {
+    margin-top: 10px;
+  }
+  

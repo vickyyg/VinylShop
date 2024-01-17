@@ -1,0 +1,37 @@
+.vinyls {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .vinyl-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+  
+  .vinyl-item .item {
+    flex: 0 0 calc(33.333% - 10px);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vinyl-item .item:hover {
+    transform: scale(1.05);
+  }
+  
+  .vinyl-item .item img {
+    width: 300px; /* Haz que la imagen ocupe todo el espacio disponible en el contenedor */
+    height: 300px; /* Haz que la imagen ocupe todo el espacio disponible en el contenedor */
+    object-fit: cover; /* Ajusta el contenido para que cubra todo el espacio, manteniendo la relación de aspecto */
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .vinyl-item .item {
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+  
