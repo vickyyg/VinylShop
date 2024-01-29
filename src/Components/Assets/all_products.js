@@ -1,6 +1,6 @@
 import img1 from './aerosmith.webp'
 import img2 from './badreligion.webp'
-import img3 from './aliceinchains.webp'
+import img3 from './aliceinchains.png'
 import img4 from './blackflag.jpg'
 import img5 from './bowie.webp'
 import img6 from './deadkennedys.webp'
@@ -20,142 +20,140 @@ import img19 from './slipknot.webp'
 import img20 from './suicidal.webp'
 
 
+
 let allProducts = [
     {
         id:1,
-        name: 'hola',
-        category: 'woman',
+        name: 'Aerosmith',
         img: img1,
-        price: 34
+        price: 10.00
     },
     {
         id:2,
-        name: 'hola',
-        category: 'woman',
+        name: 'Bad Religion',
         img: img2,
-        price: 34
+        price: 9.00
     },
     {
         id:3,
-        name: 'hola',
-        category: 'woman',
+        name: 'Alice in Chains',
         img: img3,
-        price: 34
+        price: 12.00
     }, {
         id:4,
-        name: 'hola',
-        category: 'woman',
+        name: 'Black Flag',
         img: img4,
-        price: 34
+        price: 8.00
     },
     {
         id:5,
-        name: 'hola',
+        name: 'David Bowie',
         category: 'woman',
         img: img5 ,
-        price: 34
+        price: 9.99
     },
     {
         id:6,
-        name: 'hola',
+        name: 'Dead Kennedys',
         category: 'woman',
         img: img6,
-        price: 34
+        price: 10.00
     }, {
         id:7,
-        name: 'hola',
+        name: 'Death',
         category: 'woman',
         img: img7,
-        price: 34
+        price: 7.00
     },
     {
         id:8,
-        name: 'hola',
+        name: 'Guns and Roses',
         category: 'woman',
         img: img8,
-        price: 34
+        price: 9.00
     },
     {
         id:9,
-        name: 'hola',
+        name: 'Megadeth',
         category: 'woman',
         img: img9,
-        price: 34
+        price: 8.00
     }, {
         id:10,
-        name: 'hola',
+        name: 'Metallica',
         category: 'woman',
         img: img10,
-        price: 34
+        price: 9.00
     },
     {
         id:11,
-        name: 'hola',
+        name: 'Misfits',
         category: 'woman',
         img: img11,
-        price: 34
+        price: 11.00
     },
     {
         id:12,
-        name: 'hola',
+        name: 'Pantera',
         category: 'woman',
         img: img12,
-        price: 34
+        price: 9.99
     }, {
         id:13,
-        name: 'hola',
+        name: 'Queen',
         category: 'woman',
         img: img13,
-        price: 34
+        price: 8.00
     },
     {
         id:14,
-        name: 'hola',
+        name: 'Ramones',
         category: 'woman',
         img: img14,
-        price: 34
+        price: 8.99
     },
     {
         id:15,
-        name: 'hola',
+        name: 'Sepultura',
         category: 'woman',
         img: img15,
-        price: 34
+        price: 9.99
     }, {
         id:16,
-        name: 'hola',
+        name: 'Sex Pistols',
         category: 'woman',
         img: img16,
-        price: 34
+        price: 9.00
     },
     {
         id:17,
-        name: 'hola',
+        name: 'Skid Row',
         category: 'woman',
         img: img17,
-        price: 34
+        price: 7.99
     },
     {
         id:18,
-        name: 'hola',
+        name: 'Slayer',
         category: 'woman',
         img: img18,
-        price: 34
+        price: 8.00
     },
     {
         id:19,
-        name: 'hola',
+        name: 'Slipknot',
         category: 'woman',
         img: img19,
-        price: 34
+        price: 12.00
     },
     {
         id:20,
-        name: 'hola',
+        name: 'Suicidal Tendencies',
         category: 'woman',
         img: img20,
-        price: 34
+        price: 11.99
     },
+
 ]
 
 export default allProducts;

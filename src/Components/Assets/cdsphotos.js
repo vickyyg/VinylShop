@@ -18,104 +18,89 @@ import image15 from './cdpantera.png'
 let cds = [
     {
         id:1,
-        name: 'hola',
-        category: 'woman',
+        name: 'Billy Idol',
         img: image1,
-        price: 34
+        price: 5.99
     },
     {
         id:2,
-        name: 'hola',
-        category: 'woman',
+        name: 'Blondie',
         img: image2,
-        price: 34
+        price: 6.89
     },
     {
         id:3,
-        name: 'hola',
-        category: 'woman',
+        name: 'Cannibal',
         img: image3,
-        price: 34
+        price: 7.00
     }, {
         id:4,
-        name: 'hola',
-        category: 'woman',
+        name: 'D.R.I',
         img: image4,
-        price: 34
+        price: 5.00
     },
     {
         id:5,
-        name: 'hola',
-        category: 'woman',
+        name: 'Marilyn Manson',
         img: image5 ,
-        price: 34
+        price: 4.00
     },
     {
         id:6,
-        name: 'hola',
-        category: 'woman',
+        name: 'Michael Jackson',
         img: image6,
-        price: 34
+        price: 4.99
     }, {
         id:7,
-        name: 'hola',
-        category: 'woman',
+        name: 'Napalm Death',
         img: image7,
-        price: 34
+        price: 6.00
     },
     {
         id:8,
-        name: 'hola',
-        category: 'woman',
+        name: 'Nirvana',
         img: image8,
-        price: 34
+        price: 7.99
     },
     {
         id:9,
-        name: 'hola',
-        category: 'woman',
+        name: 'Obituary',
         img: image9,
-        price: 34
+        price: 6.00
     }, {
         id:10,
-        name: 'hola',
-        category: 'woman',
+        name: 'Queen',
         img: image10,
-        price: 34
+        price: 7.60
     },
     {
         id:11,
-        name: 'hola',
-        category: 'woman',
+        name: 'Rage Against the Machine',
         img: image11,
-        price: 34
+        price: 6.00
     },
     {
         id:12,
-        name: 'hola',
-        category: 'woman',
+        name: 'The Smith',
         img: image12,
-        price: 34
+        price: 7.00
     }, {
         id:13,
-        name: 'hola',
-        category: 'woman',
+        name: 'Suicidal Tendencies',
         img: image13,
-        price: 34
+        price: 6.99
     },
     {
         id:14,
-        name: 'hola',
-        category: 'woman',
+        name: 'The Cure',
         img: image14,
-        price: 34
+        price: 7.00
     },
     {
         id:15,
-        name: 'hola',
-        category: 'woman',
+        name: 'Pantera',
         img: image15,
-        price: 34
+        price: 6.95
     }
 ]
 

@@ -1,8 +1,6 @@
 import React, {createContext, useState} from "react";
 import allproducts from "../Components/Assets/allproducts";
 
-
-
 export const ShopContext = createContext(null);
 
 const getDefaultCart = () =>{

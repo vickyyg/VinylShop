@@ -11,7 +11,7 @@ import CartItems from '../Components/CartItems/CartItems';
 const Shop = () => {
   return (
     <div>
-      <Hero/>
+     {/*  <Hero/>  */}
       <Popular/>
       <Baner/>
       <Cds/>

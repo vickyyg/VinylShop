@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+   
   }
   
   .productdisplay-left {
@@ -15,12 +16,18 @@
   
   .productdisplay-img {
     text-align: center;
+    height: 250px;
+    width: 250px;
   }
   
   .productdisplay-img img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+  }
+
+  .productdisplay-img h1{
+    font-size: 20px;
   }
   
   button {

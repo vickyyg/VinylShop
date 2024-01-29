@@ -7,8 +7,8 @@ import Item from '../Item/Item'
 const Popular = () => {
   return (
     <div className='vinyls'>
-      <h1>hcjschjscjsjcbsjhcb</h1>
-      <hr/>
+      <h1>Vinyls</h1>
+      
       <div className="vinyl-item">
         {allProducts.map((item, i)=>{
           return <Item key={i} id={item.id} name={item.name} image={item.img} price={item.price}/>
@@ -19,4 +19,4 @@ const Popular = () => {
   )
 }
 
-export default Popular
+export default Popular;

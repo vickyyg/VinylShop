@@ -13,8 +13,7 @@ function App() {
   return (
     <div className='navbar'>
       <BrowserRouter>
-     <Navbar />
-     
+     <Navbar/>
      <Routes>
       <Route path='/' element={<Shop/>}/>
       <Route path='/metals' element={<ShopCategory category='metals'/>}/>

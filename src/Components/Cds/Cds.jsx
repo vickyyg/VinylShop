@@ -8,7 +8,7 @@ const Cds = () => {
   return (
     <div className='cds'>
         <h1>CD's</h1>
-        <hr/>
+        
         <div className='cds-item'>
             {cdsphotos.map((item, i)=>{
               return <Item key={i} id={item.id} name={item.name} image={item.img} price={item.price}/>
