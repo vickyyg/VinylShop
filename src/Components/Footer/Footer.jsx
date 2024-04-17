@@ -3,7 +3,7 @@ import './Footer.css';
 import facelogo from '../Assets/facelogo.png';
 import instalogo from '../Assets/instalogo.png';
 import wpplogo from '../Assets/wpplogo.png';
-import footerlogo from '../Assets/footerlogo.png';
+
 
 const Footer = () => {
   return (
